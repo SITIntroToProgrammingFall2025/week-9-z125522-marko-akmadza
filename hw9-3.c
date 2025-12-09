@@ -20,7 +20,7 @@ int main(void) {
         }
     } 
 
-    printf("You entered\n");
+    printf("The first matrix you entered is\n");
     for (int i = 0; i < 2; i++) {
         for (int j = 0; j < 3; j++) {
             printf("%g ", matrix[i][j]);
@@ -29,7 +29,7 @@ int main(void) {
     }
 
 
-    printf("You entered\n");
+    printf("The second matrix you entered is\n");
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 2; j++) {
             printf("%d ", matrixb[i][j]);
@@ -51,7 +51,7 @@ int main(void) {
 
     }
 
-    printf("The multiplication product of trix A and matrix B:\n");
+    printf("The multiplication product of matrix A and matrix B:\n");
 
     for (int i = 0; i < 2; i++) {
         for (int j = 0; j < 2; j++) {
